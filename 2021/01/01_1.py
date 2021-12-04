@@ -8,7 +8,7 @@
 """
 import numpy as np
 
-with open('01_1.in', 'r') as f:
+with open('01.in', 'r') as f:
     num = [int(x) for x in f.read().split()]
 
 num = np.array(num, dtype=int)
